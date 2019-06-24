@@ -1,0 +1,5 @@
+username: user 
+password: password 
+hostname: localhost
+port:     1521
+service:  XE 
