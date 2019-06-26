@@ -61,7 +61,7 @@ func parseFlags() {
 	flag.StringVar(&config.script, "i", "", "Script File to Import")
 
 	flag.BoolVar(&config.debugMode, "debug", false, "Debug mode (default=false)")
-	flag.StringVar(&config.connectionConfig, "connection", "", "Confguration file for connection")
+	flag.StringVar(&config.connectionConfig, "connection", "", "Configuration file for connection")
 
 	flag.StringVar(&config.appID, "appID", "", "application ID to import into")
 	flag.StringVar(&config.alias, "alias", "", "application alias (override)")
